@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bueno's Turismo</title>
+  <!-- Link do CSS do Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+  
+  </style>
+</head>
+<body>
+
+  <!-- Topo -->
+  <header class="bg-success text-white text-center py-3">
+    <h1>Bem-vindo ao Bueno's Turismo</h1>
+	<h4>"Viajar é descobrir novos horizontes, experimentar culturas distintas e colecionar memórias que enriquecem a alma."</h4>
+  </header>
+
+  <!-- Menu de Navegação -->
+  <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Bueno</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link fw-bold"  href="index.html">INÍCIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="nacionais.html">PACOTES NACIONAIS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="dicas.html">DICAS DE VIAGEM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="contato.html">CONTATO</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteúdo -->
+  <main class="container my-5">
+    <div class="row">
+	
+      <div class="col-md-12">
+	  
+        <h2>Contato</h2>
+		
+		<form>
+		  <!-- Campo Nome -->
+		  <div class="mb-3">
+			<label for="nome" class="form-label">Nome</label>
+			<input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+		  </div>
+
+		  <!-- Campo Telefone -->
+		  <div class="mb-3">
+			<label for="telefone" class="form-label">Telefone</label>
+			<input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone" required>
+		  </div>
+
+		  <!-- Campo Assunto -->
+		  <div class="mb-3">
+			<label for="assunto" class="form-label">Assunto</label>
+			<input type="text" class="form-control" id="assunto" placeholder="Digite o assunto" required>
+		  </div>
+
+		  <!-- Campo Mensagem -->
+		  <div class="mb-3">
+			<label for="mensagem" class="form-label">Mensagem</label>
+			<textarea class="form-control" id="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
+		  </div>
+
+		  <!-- Botão de Envio -->
+		  <button type="submit" class="btn btn-primary">Enviar</button>
+		</form>
+		
+      </div>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 desenvolvido por Alexei Bueno.</p>
+  </footer>
+
+  <!-- Link do JS do Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
